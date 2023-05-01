@@ -2,8 +2,10 @@ import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
 
+
 hostName = "localhost"
 serverPort = 8080
+
 
 class MyServer(BaseHTTPRequestHandler):
     post_list = []
